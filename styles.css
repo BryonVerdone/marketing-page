@@ -13,6 +13,9 @@ li {
 a {
   text-decoration: none;
 }
+.wrapper {
+  max-width: 1903px;
+}
 /* =========
 Navbar
 ============
@@ -29,12 +32,30 @@ Navbar
 Hero section 
 ============
 */
-
+.hero-img-container {
+  max-width: 1903px;
+  object-fit: cover;
+}
 /* =========
 Our team 
 ============
 */
-
+.team-heading {
+  text-align: center;
+  margin: 2rem 0;
+}
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.team-card {
+  flex: 25%;
+  text-align: center;
+}
+.team-card img {
+  border-radius: 50%;
+}
 /* =========
 Our work 
 ============
