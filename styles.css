@@ -1,0 +1,55 @@
+/* =========
+Global 
+============
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* =========
+Navbar
+============
+*/
+.navbar {
+  background: #333333;
+  padding: 2rem;
+}
+.nav-item {
+  color: white;
+  margin: 2rem;
+}
+/* =========
+Hero section 
+============
+*/
+
+/* =========
+Our team 
+============
+*/
+
+/* =========
+Our work 
+============
+*/
+
+/* =========
+Pricing 
+============
+*/
+/* =========
+Contact US 
+============
+*/
+
+/* =========
+Footer 
+============
+*/
