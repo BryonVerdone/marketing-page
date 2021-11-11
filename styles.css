@@ -32,8 +32,9 @@ Navbar
 Hero section 
 ============
 */
-.hero-img-container {
-  max-width: 1903px;
+.hero-img-container img {
+  width: 100%;
+  height: 50vh;
   object-fit: cover;
 }
 /* =========
@@ -55,16 +56,62 @@ Our team
 }
 .team-card img {
   border-radius: 50%;
+  box-shadow: 5px 5px 15px -3px #000000;
 }
 /* =========
 Our work 
 ============
 */
-
+.our-work {
+  background: #333333;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.our-work-text {
+  color: white;
+  padding: 1.5rem;
+  width: 215.13px;
+  height: 373px;
+  flex: 24.9999%;
+  margin: 0;
+}
+.our-work-card {
+  background-color: white;
+  /* padding: 1rem; */
+  flex: 25%;
+  border: 1rem solid #333333;
+}
+.our-work-card h2 {
+  text-align: center;
+}
+.our-work-card img {
+  width: 100%;
+}
 /* =========
 Pricing 
 ============
 */
+.pricing {
+  margin-top: 2rem;
+}
+.pricing-heading {
+  text-align: center;
+}
+.pricing-card-section {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.pricing-card {
+  flex: 33.3333%;
+}
+.pricing-card p {
+  margin: 1rem;
+}
 /* =========
 Contact US 
 ============
