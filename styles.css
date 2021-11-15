@@ -22,11 +22,25 @@ Navbar
 */
 .navbar {
   background: #333333;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 .nav-item {
+  color: black;
+  padding: 3rem;
+}
+.nav-item:hover {
+  background: #009688;
   color: white;
-  margin: 2rem;
+}
+@media (max-width: 700px) {
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav-item {
+    flex: 100%;
+    text-align: center;
+  }
 }
 /* =========
 Hero section 
@@ -54,6 +68,17 @@ Our team
   flex: 25%;
   text-align: center;
 }
+@media (max-width: 700px) {
+  .team-card {
+    flex: 100%;
+    margin-top: 1.5rem;
+  }
+}
+/* @media (max-width: 600px) {
+  .team-card {
+    flex: 100%;
+  }
+} */
 .team-card img {
   border-radius: 50%;
   box-shadow: 5px 5px 15px -3px #000000;
@@ -83,11 +108,19 @@ Our work
   flex: 25%;
   border: 1rem solid #333333;
 }
+@media (max-width: 700px) {
+  .our-work-card {
+    flex: 100%;
+  }
+}
 .our-work-card h2 {
   text-align: center;
 }
 .our-work-card img {
   width: 100%;
+}
+.our-work-card h3 {
+  margin: 1rem 0;
 }
 /* =========
 Pricing 
@@ -104,19 +137,50 @@ Pricing
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: space-evenly;
 }
 .pricing-card {
   flex: 33.3333%;
+  border: 3px solid #333333;
+  padding-bottom: 2rem;
+}
+@media (max-width: 700px) {
+  .pricing-card {
+    flex: 100%;
+    margin-top: 1.25rem;
+  }
+}
+.pricing-card-header {
+  background: black;
+  color: white;
 }
 .pricing-card p {
-  margin: 1rem;
+  margin: 1rem 0;
+  border-bottom: 2px solid #333333;
 }
 /* =========
 Contact US 
 ============
 */
-
+.contact {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-text {
+  flex: 50%;
+  text-align: center;
+}
+.contact-form {
+  flex: 50%;
+}
+@media (max-width: 700px) {
+  .contact-text {
+    flex: 100%;
+  }
+  .contact-form {
+    flex: 100%;
+  }
+}
 /* =========
 Footer 
 ============
